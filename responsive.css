@@ -1,0 +1,408 @@
+@media only screen and (min-width: 700px) and (max-width: 1024px){
+    
+    body, html {
+        background-image: none;
+        background-color: white;
+
+    }
+    
+    #wrapper{
+        width: 100%;
+        margin: 0;
+        left: 0;
+        right: 0; 
+        border: 0;
+    }
+    
+    header {
+        line-height: 100px;
+        height: 100px;
+    }
+    
+    header h1 {
+        font-size: 200%;
+    }
+    
+    header img {
+        width: auto;
+        height: 80px;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    header li {
+        height: 100px;
+        width: 15%;
+    }
+    
+    header li:nth-child(2) {
+        width: 70%;
+    }
+    
+    main img {
+        margin-top: 30px;
+    }
+    
+    #prijzen, #vaccins, main {
+        min-height: 650px;
+    }
+    
+    #portfolio {
+        margin-bottom: 100px;
+    }
+    
+    iframe, #contact {
+        width: 90%;
+    }
+    iframe {
+        padding: 5%;
+        margin: 0 0 100px 0;
+        height: 450px;
+    }
+    
+    #contact {
+        max-height: 300px;
+    }
+    
+    h2 {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    
+    #contact p:last-child {
+        margin-bottom: 20px;
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+      
+        
+}
+
+@media only screen and (min-width: 500px) and (max-width: 699px){
+    
+    body, html{
+        background-image: none;
+        background-color: white;
+        height: 100%;
+        bottom: 0;
+    }
+    
+    #wrapper{
+        width: 100%;
+        margin: 0;
+        left: 0;
+        bottom: 0;
+        right: 0; 
+        border: 0;
+    }
+    
+    header {
+        height: 80px;
+        font-size: 150%;
+        line-height: 80px;
+    }
+    
+    header img {
+        display: none;
+    }
+    
+    header li {
+        height: 80px;
+        width: 0;
+    }
+    
+    header li:nth-child(2) {
+        width: 100%;
+    }
+    
+    h3, nav ul li, nav ul {
+        height: 50px;
+    }
+    
+    nav {
+        font-size: 90%;
+        height: 50px;
+    }
+    
+    nav li a {
+        padding: 5px 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    
+    aside {
+        display: none;
+    }
+    
+    main {
+        width: 90%;
+    }
+    
+    h2 {
+        text-align: center;
+        width: 100%;
+    }
+    
+    iframe, #contact {
+        width: 90%;
+    }
+    iframe {
+        padding: 5%;
+        margin: 0;
+    }
+    
+    #portfolio {
+        margin-bottom: 100px;
+    }
+    
+    #contact {
+        height: 250px;
+        
+    }
+    
+    #contact h2 {
+        width: 100%;
+    }
+    
+    iframe {
+        margin-bottom: 80px;
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    
+    body {
+        background-image: none;
+        background-color: white;
+        height: auto;
+    }
+    
+    #wrapper{
+        width: 100%;
+        margin: 0;
+        left: 0;
+        right: 0; 
+        border: 0;
+    }
+    
+    header {
+        height: 50px;
+        font-size: 120%;
+        line-height: 50px;
+        position: fixed
+    }
+    
+    header img {
+        display: none;
+    }
+    
+    header li {
+        height: 50px;
+        width: 0;
+    }
+    
+    header li:nth-child(2) {
+        width: 100%;
+    }
+    
+    nav {
+        font-size: 20%;
+        height: 50px;
+            
+    }
+    
+    nav ul {
+        display: block;
+        height: 200px;
+            
+    }
+    
+    nav li {
+        width: 100%;
+        height: 40px;
+        margin-top: 0px;
+        padding: 0px;
+        border-bottom: 1px black solid;
+    }
+    
+    nav li:first-child {
+        border-top: 1px black solid;
+    }
+    
+    nav li a {
+        height: 40px;
+        line-height: 40px;
+    }
+    
+    figure {
+        display: none;
+    }
+    
+    h2 {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+    
+    h3 {
+        height: 40px;
+    }
+    
+    main {
+        margin-bottom: 0;
+        bottom: 0;
+    }
+    
+    aside {
+        display: none;
+    }
+    
+    #prijzen, #vaccins, #portfolio, main {    
+        min-height: 300px;
+        padding: 20px 10%;
+        width: 80%;
+    }
+    
+    #portfolio h2 {
+        padding: 0;
+    }
+    
+    #portfolio ul li{
+        width: 100%;
+    }
+    
+    #contact ul li{
+        list-style: none;
+    }
+    
+    iframe {
+        margin:10%;
+        width: 80%;
+        padding: 0;
+        bottom: 100px;
+        margin-bottom: 80px;
+        height: 450px;
+    }
+    
+    #contact {
+        max-height: 280px;
+        padding: 0 10%;
+        width: 80%;
+        text-align: center;
+    }
+    
+    footer {
+        font-size: 70%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+        color: #232323;
+
+        transition: color 0.3s ease;
+    }
+
+    #menuToggle {
+        display: block;
+        position: fixed;
+        top: 15px;
+        left: 0px;
+
+        z-index: 1;
+    }
+
+    #menuToggle input {
+        display: block;
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+
+        cursor: pointer;
+
+        opacity: 0;
+        z-index: 2; 
+    }
+
+    #menuToggle span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        left: 10px;
+        top: px;
+        position: relative;
+
+        background: black;
+        border-radius: 3px;
+
+        z-index: 1;
+
+        transform-origin: 4px 0px;
+
+        transition: transform 0.5s cubic-bezier(0.8, 0.2, 0.05, 1),
+        background 0.5s cubic-bezier(0.8, 0.2, 0.05, 1), opacity 0.55s ease;
+    }
+
+    #menuToggle span:first-child {
+        transform-origin: 0% 0%;
+    }
+
+    #menuToggle span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+
+    #menuToggle input:checked ~ span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #232323;
+    }
+
+    #menuToggle input:checked ~ span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    #menuToggle input:checked ~ span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+
+    #menu {
+        position: fixed;
+        width: 100%;
+        margin-top: 8px;
+    
+        list-style-type: none;
+
+        transform-origin: 100% 0%;
+        transform: translate(-110%, 0%);
+
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    }
+
+    #menu li {
+        padding: 0;
+        font-size: 18px;
+    }
+
+    #menuToggle input:checked ~ ul {
+        transform: none;
+    }
